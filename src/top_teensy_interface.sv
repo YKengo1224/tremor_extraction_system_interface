@@ -96,7 +96,6 @@ module top_Teensy_interface#(
    
 	  
    
-   //################calculation output data module########################
    NextPostion_calculator
      #(
        .MODE_NO_FILTERING(MODE_NO_FILTERING),
@@ -119,7 +118,7 @@ module top_Teensy_interface#(
       .frameNum(FrameNum),
       .SendData(SendData)
       );  
-   //#####################################################################
+
 
    
 
